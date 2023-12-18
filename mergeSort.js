@@ -12,7 +12,7 @@ const mergeArray = (arr1, arr2) => {
       j++;
     }
   }
-  while (i < arr1.length) { 
+  while (i < arr1.length) {
     arr.push(arr1[i]);
     i++;
   }
