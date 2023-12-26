@@ -31,9 +31,7 @@ class Stack {
       this.last = null;
     }
     this.first = this.first.next;
-    console.log(temp);
     temp.next = null;
-    console.log(temp);
     this.size--;
     return temp.value;
   }
