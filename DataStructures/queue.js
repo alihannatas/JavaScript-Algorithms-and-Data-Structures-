@@ -35,12 +35,3 @@ class Queue {
     return current.val;
   }
 }
-
-const queue = new Queue();
-for (let i = 0; i < 100; i++) {
-  queue.enqueue(i);
-}
-
-console.log(queue);
-console.log(queue.dequeue());
-console.log(queue);
