@@ -16,11 +16,11 @@ const bubbleSort = (arr) => {
   let swap;
   for (let i = arr.length - 1; i > 0; i--) {
     for (let j = i - 1; j < arr.length; j++) {
-      swap = false;
+      swap = true;
       if (arr[j] > arr[j + 1]) {
         //swap
         [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
-        swap = true;
+        swap = false;
       }
     }
     if (swap) break;
