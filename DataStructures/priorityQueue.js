@@ -78,6 +78,5 @@ heap.enqueue(3, 3);
 heap.enqueue(14, 14);
 heap.enqueue(15, 15);
 heap.enqueue(15, 0);
-
 heap.dequeue();
 console.log(heap);
